@@ -1,3 +1,8 @@
+<?php
+$password = $_GET["password"];
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +13,8 @@
     <title>Password Generator</title>
 </head>
 <body>
+
+<?php echo $password; ?> <br>
     
 </body>
 </html>

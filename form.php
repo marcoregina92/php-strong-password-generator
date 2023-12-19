@@ -8,9 +8,11 @@
     <title>Password Generator</title>
 </head>
 <body>
-
-    <h1>Test</h1>
-    <button type="button" class="btn btn-primary">Click</button>
+    <form action="password.php">
+        <label for="password"> Lunghezza password? </label>
+        <input type="number" name="password" id="" min="5" max="20">
+        <button class="btn btn-warning" type="submit"> Invia </button>
+    </form>
     
 </body>
 </html>
